@@ -179,7 +179,7 @@ def main():
         prevision = clf.predict(donnee_entre)
         # Affichage du prévision
         st.subheader("Résultat du modèle de MLPClassifier")
-        st.write("Décès  :", "1" if prevision[0] == 1 else "0")
+        st.write("Prediction  :", "1" if prevision[0] == 1 else "0")
         plot_perf(["Metric", "Courbe de ROC", "SHAP"])
 
         
