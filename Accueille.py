@@ -31,8 +31,8 @@ def main():
     Cette application permet de prédire le **risque de décès** chez un patient atteint de **cancer de l’estomac** à partir de plusieurs facteurs cliniques.  
     Elle offre les fonctionnalités suivantes :
 
-    - ✅ Saisie des caractéristiques d’un nouveau patient via un formulaire simple (1 = Oui, 0 = Non).  
-    - 🔍 Prédiction du décès grâce à un modèle de machine learning (MLPClassifier).  
+    - ✅ Saisie des caractéristiques d’un nouveau patient via un formulaire simple (1 = Décès, 0 = Survi).  
+    - 🔍 Prédiction du décès grâce à un modèle de Deep learning (MLPClassifier).  
     - 📊 Affichage du métrique de performance du modèle : accuracy.  
     - 📈 Visualisation des courbes ROC et matrice de confusion.  
     - 🧠 Interprétation des prédictions avec des valeurs SHAP.  
