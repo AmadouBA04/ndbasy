@@ -1,0 +1,9 @@
+openpyxl
+streamlit
+pandas
+numpy
+scikit-learn
+matplotlib
+shap
+mysql-connector-python
+
